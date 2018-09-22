@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Michael Zhuoyu Zhu | More Than A Geek</title>
+
+		<meta name="description" content="Michael Zhuoyu Zhu | More Than A Geek"/>
+		<meta name="keywords" content="Michael Zhuoyu Zhu | More Than A Geek"/>
+		<meta name="author" content="Michael Zhuoyu Zhu"/>
+		
+		<link rel="shortcut icon" href="img/favicon.png"> 
+    <style>
+      legend {
+          font-weight:  bold;
+      }
+    </style>
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />				
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+		
+</head>
+
+<body>
+
+
+<div class="container">
+
+  <!-- section menu mobile -->
+  
+  <section class="menu-media">
+  
+    <div class="menu-content">
+      
+      <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
+    
+    </div>
+   
+  </section>
+  
+    <ul class="menu-click">
+        <a href="#home"><li href="index.html">HOME</li></a>
+        <a href="#about-us"><li href="index.html">ABOUT ME</li></a>
+        <a href="#portfolio"><li href="index.html">PORTFOLIO</li></a>
+        <a href="#contact"><li href="index.html">CONTACT</li></a>
+        
+    </ul>
+   
+   
+  <!-- section menu -->
+  
+  <section class="menu">
+
+    <div class="menu-content">
+    
+      <ul id="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html">ABOUT ME</a></li>
+        <li><a href="index.html">PORTFOLIO</a></li>
+        <li><a href="index.html">CONTACT</a></li>
+      </ul>
+    </div>
+  
+  
+  </section>
+
+  <!-- portoflio-->
+
+  <section class="portfolio" id="portfolio">
+
+
+    <div class="portfolio-margin">
+    
+      <h1>YummyFood Restaurant Recommendation</h1>
+      <hr/>
+
+      I took the full responsibility of building the front-end and back-end infrastucture of this web app from scratch. The main purpose of "YummyFood" is to use personalization to improve restaurant search and recommendation based on search history, favorite record and geo-location. In addition, I also developed a mobile app version on the Android platform. All the restaurants data are fetched by using Yelp API. The users are able to record the favorite restaurants by clicking the heart symbol on the right hand side of each restaurant listing. The system keep track of the favorite restaurant record based on the geo-location of users. <br><br>
+      
+      Back End:
+      <ul>
+        <li>• Built Apache Tomcat servers using Java servlets with RESTful APIs to handle HTTP requests and response.</li>
+        <li>• Built relational and NoSQL databases (MySQL and MongoDB) to fetch real restaurant data from Yelp API.</li>
+        <li>• Developed a collaborative filtering algorithm based on similarity scores to improve recommendation precision.</li>
+        <li>• Designed a MapReduce program in MongoDB to calculate similarity scores between users to enhance the scalability when it tried to make recommendation</li>
+        <li>• Deployed server side to Amazon EC2 that is able to handle 200 queries per second tested by Apache JMeter</li>
+        <li>• Built a search engine using ElasticSearch to collect users’ geo-location log from remote environment.</li>
+        <li>• Utilized Logstash to build a dynamic and real time pipeline for log reporting and transforming.</li>
+        <li>• Visualized logs with Kibana to analyze and track the user geo-location density and distribution around the world.</li>
+
+      </ul>
+      <br><br>
+
+      <legend>App Link: http://yummyfood.zhuoyuzhu.com/Dashi/</legend><br>
+      <legend>Github: https://github.com/zhuoyuzhu/Dashi</legend>
+      <br><br>
+
+      Please feel free to explore this app. As for the log-in credential, you can find it on my resume. <br><br>
+
+      Figure 1 - Yummy Food Restaurant Search and Recommendation Log-in Page 
+      <img src="img/Project/YummyFood/home.png" width="900" height="300" alt="Portfolio item" /><br><br>
+      
+      Figure 2 - Demonstrate all the nearby restaurants based on your current geo-location<br><br>
+      <img src="img/Project/YummyFood/nearby.png" width="900" height="300" alt="Portfolio item" /> <br><br>
+      Figure 3 - Illustrate the favorite restaurants of the users based on user's searching and like history<br><br>
+      <img src="img/Project/YummyFood/favorite.png" width="900" height="500" alt="Portfolio item" /> <br><br>
+      Figure 4 - Make restaurant recommendation to the users using collaborative filtering algorithm<br><br>
+      <img src="img/Project/YummyFood/recommendation.png" width="900" height="500" alt="Portfolio item" /><br><br>
+      Figure 5 - Display the geo-location of all the users around the global region by Elastic Search, Logstasg and Kibana<br><br>
+      <img src="img/Project/YummyFood/search.png" width="900" height="500" alt="Portfolio item" /><br><br>
+
+      <br>
+      For more technical details, you can get in touch with me by my eamil.
+      <br><br><br><br>
+
+   </div>   
+         
+   </section>
+
+  
+   <div class="clear"></div>  
+    <!-- Contact-->
+    <section class="footer">
+      
+        <div class="menu-footer">
+        
+          <a href="#home">Home</a>
+          <a href="#about-us">About Me</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        
+        </div>
+        
+        <div class="copyright">© 2016. All Rights Reserved Michael Zhuoyu Zhu</div>        
+    
+    
+    </section>    
+    
+
+</div>
+
+
+
+	<!-- Scripts -->
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+	<script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
+	<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
+
+   <script>
+     $(function(){
+   
+       var $container = $('.grid');
+     
+       $container.imagesLoaded( function(){
+         $container.masonry({
+           itemSelector : 'li'
+         });
+       });
+     
+     });
+   </script>
+	<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->	
+	<script src="js/script.js"></script> <!-- All script -->	
+
+
+</body>
+
+</html>
