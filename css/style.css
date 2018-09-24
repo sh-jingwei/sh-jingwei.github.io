@@ -113,8 +113,7 @@ h1 span{
   width:100%;
   height:100%;
   z-index:10;
-  background:url('../img/background/ttt.png') #c0c0c0 bottom center fixed no-repeat;
-  /*background:url('../img/background/start-page.jpg') #c0c0c0 bottom center fixed no-repeat;*/
+  background:url('../img/background/start1.jpg') #c0c0c0 bottom center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -316,7 +315,7 @@ h1 span{
 
 .menu-content ul{
 
-  width:500px;
+  width:540px;
   left:50%;
   float:right;
   text-align:right;
@@ -432,15 +431,15 @@ h1 span{
 }
 
 .about-us .column-one .circle-one{
-  height: 100px;
+  height: 120px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/shanghai.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
+  background: url(../img/icons/11.png) white no-repeat center center;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  border-radius: 120px;
+  width: 120px;
   cursor:pointer;
     -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -463,15 +462,15 @@ h1 span{
 }
 
 .about-us .column-two .circle-two{
-  height: 100px;
+  height: 120px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/cambridge.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
+  background: url(../img/icons/22.png) white no-repeat center center;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  border-radius: 120px;
+  width: 120px;
     cursor:pointer;
     -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -494,15 +493,15 @@ h1 span{
 }
 
 .about-us .column-three .circle-six{ 
-  height: 100px;
+  height: 120px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/manutd.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
+  background: url(../img/icons/66.png) white no-repeat center center;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  border-radius: 120px;
+  width: 120px;
   cursor:pointer;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -517,15 +516,15 @@ h1 span{
 
 /* ----------------------------------------------- */
 .about-us .column-one .circle-four{ 
-  height: 100px;
+  height: 120px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/p1.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
+  background: url(../img/icons/44.png) white no-repeat center center;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  border-radius: 120px;
+  width: 120px;
   cursor:pointer;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -539,15 +538,15 @@ h1 span{
 }
 
 .about-us .column-two .circle-five{ 
-  height: 100px;
+  height: 120px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/travel.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
+  background: url(../img/icons/55.png) white no-repeat center center;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  border-radius: 120px;
+  width: 120px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -ms-transition: all 0.2s ease-in;
@@ -560,15 +559,15 @@ h1 span{
 }
 
 .about-us .column-three .circle-three{ 
-  height: 100px;
+  height: 120px;
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/sf.jpg) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
+  background: url(../img/icons/33.png) white no-repeat center center;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  border-radius: 120px;
+  width: 120px;
   cursor:pointer;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -596,7 +595,8 @@ h1 span{
 .portfolio{
   position:relative;
   width:100%;
-  background:#f3f3f3;
+  background:#EFF2F6;
+  /*background:#f3f3f3;  #E8EBEF*/
   z-index:10;
 
 }
